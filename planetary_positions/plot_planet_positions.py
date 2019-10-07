@@ -18,7 +18,7 @@ def generate_plot(r,theta):
 
     debug_pp(r, theta)
 
-    r = to_Mkm(r)
+    r = to_Gkm(r)
     theta = to_rads(theta)
     
     fig = plt.figure()
